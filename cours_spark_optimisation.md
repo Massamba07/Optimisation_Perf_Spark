@@ -130,7 +130,7 @@ final_result = result_skewed.union(result_normal)
 
 ---
 
-## 🚀 Module 3 : Optimisations Catalyst et Tungsten
+## Leçon 3 : Optimisations Catalyst et Tungsten
 
 ### 3.1 Catalyst Optimizer
 
