@@ -3,7 +3,7 @@
 
 ---
 
-## 📚 Module 1 : Architecture et Fondamentaux Spark
+## Leçon 1 : Architecture et Fondamentaux Spark
 
 ### 1.1 Architecture Spark - Rappels essentiels
 
@@ -44,7 +44,7 @@ Un shuffle se produit lors de :
 
 ---
 
-## 📊 Module 2 : Optimisation des Partitions
+## Leçon 2 : Optimisation des Partitions
 
 ### 2.1 Comprendre le partitionnement
 
