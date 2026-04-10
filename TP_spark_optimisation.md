@@ -196,7 +196,7 @@ print("CV > 0.5 indique un déséquilibre significatif" if cv > 0.5 else "Distri
 
 ---
 
-## 🔧 TP2 : Optimisation des partitions
+## TP2 : Optimisation des partitions
 
 ### Objectif
 Maîtriser les techniques de repartitionnement et résoudre le data skew.
@@ -1459,4 +1459,4 @@ Réaliser un pipeline ETL complet avec :
 
 ---
 
-**Bon courage pour les TP ! 🚀**
+**Bon courage pour les TPS ! **
