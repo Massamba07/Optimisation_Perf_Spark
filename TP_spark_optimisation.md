@@ -3,7 +3,7 @@
 
 ---
 
-## 🎯 Objectifs des TP
+## Objectifs des TP
 
 À l'issue de ces travaux pratiques, vous serez capable de :
 - Diagnostiquer les problèmes de performance dans un job Spark
@@ -14,7 +14,7 @@
 
 ---
 
-## 🛠️ Configuration de l'environnement
+##  Configuration de l'environnement
 
 ### Prérequis
 ```bash
@@ -47,7 +47,7 @@ spark.sparkContext.setLogLevel("WARN")
 
 ---
 
-## 📊 TP1 : Génération de données et analyse initiale
+## TP1 : Génération de données et analyse initiale
 
 ### Objectif
 Créer des datasets de test et comprendre leur structure avant optimisation.
@@ -188,7 +188,7 @@ print(f"\nCoefficient de variation: {cv:.2f}")
 print("CV > 0.5 indique un déséquilibre significatif" if cv > 0.5 else "Distribution équilibrée")
 ```
 
-### ❓ Questions TP1
+### Questions TP1
 
 1. Quel est le nombre de partitions par défaut ? Est-ce optimal pour vos données ?
 2. Observez-vous du data skew dans les transactions ? Comment le quantifiez-vous ?
@@ -330,7 +330,7 @@ print(f"\nCoalesce est {time_repartition / time_coalesce:.1f}x plus rapide")
 print("Mais attention : coalesce peut créer du déséquilibre !")
 ```
 
-### ❓ Questions TP2
+### Questions TP2
 
 1. Quel est le nombre optimal de partitions pour vos données ?
 2. Le salting améliore-t-il les performances ? De combien ?
@@ -338,7 +338,7 @@ print("Mais attention : coalesce peut créer du déséquilibre !")
 
 ---
 
-## 💾 TP3 : Cache et gestion mémoire
+## TP3 : Cache et gestion mémoire
 
 ### Objectif
 Utiliser efficacement le cache pour optimiser les pipelines avec réutilisation de données.
@@ -455,7 +455,7 @@ show_cache_stats()
 df_to_monitor.unpersist()
 ```
 
-### ❓ Questions TP3
+### Questions TP3
 
 1. Quand le cache est-il vraiment bénéfique ?
 2. Quel niveau de stockage choisir selon le use case ?
@@ -585,7 +585,7 @@ print(f"\nAmélioration avec AQE: {((time_no_aqe - time_aqe) / time_no_aqe) * 10
 spark.conf.set("spark.sql.adaptive.enabled", "true")
 ```
 
-### ❓ Questions TP4
+### Questions TP4
 
 1. Quand utiliser broadcast join vs shuffle join ?
 2. Comment le bucketing améliore-t-il les performances ?
@@ -717,7 +717,7 @@ print(f"Nombre de fichiers optimisés: {num_files_opt}")
 print(f"Réduction: {((num_files - num_files_opt) / num_files) * 100:.1f}%")
 ```
 
-### ❓ Questions TP5
+### Questions TP5
 
 1. Pourquoi Parquet est-il plus performant que CSV ?
 2. Comment le partitionnement améliore-t-il les performances ?
@@ -839,7 +839,7 @@ time_with = measure_time(with_optimization, "Avec projection")[1]
 print(f"\nAmélioration: {((time_without - time_with) / time_without) * 100:.1f}%")
 ```
 
-### ❓ Questions TP6
+### Questions TP6
 
 1. Pourquoi les UDFs Python sont-elles lentes ?
 2. Quand utiliser des Pandas UDFs ?
@@ -995,7 +995,7 @@ def analyze_output():
 analyze_output()
 ```
 
-### ❓ Questions TP7
+### Questions TP7
 
 1. Quelles optimisations ont eu le plus d'impact ?
 2. Quelle est l'amélioration globale de performance ?
@@ -1141,7 +1141,7 @@ diagnose_dataframe(df_transactions, "Transactions")
 diagnose_dataframe(df_customers, "Customers")
 ```
 
-### ❓ Questions TP8
+### Questions TP8
 
 1. Comment interpréter un plan d'exécution Spark ?
 2. Quels sont les signaux d'un problème de performance ?
