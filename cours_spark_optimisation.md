@@ -617,7 +617,7 @@ print(f"Amélioration: {((v1_time - v2_time) / v1_time) * 100:.1f}%")
 
 ---
 
-## 📚 Ressources complémentaires
+## Ressources complémentaires
 
 ### Documentation officielle
 - Apache Spark Documentation : https://spark.apache.org/docs/latest/
