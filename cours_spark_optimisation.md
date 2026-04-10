@@ -556,7 +556,7 @@ df1.join(df2, df1.id == df2.id)
 
 ---
 
-## 📝 Checklist d'optimisation
+## Checklist d'optimisation
 
 ### Avant développement
 - [ ] Comprendre le volume de données (GB/TB)
@@ -585,7 +585,7 @@ df1.join(df2, df1.id == df2.id)
 
 ---
 
-## 🔬 Méthodes de benchmarking
+##  Méthodes de benchmarking
 
 ### Test de performance
 ```python
