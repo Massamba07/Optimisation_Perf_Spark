@@ -463,7 +463,7 @@ df_to_monitor.unpersist()
 
 ---
 
-## 🔗 TP4 : Optimisation des jointures
+## TP4 : Optimisation des jointures
 
 ### Objectif
 Maîtriser les différents types de jointures et leurs optimisations.
