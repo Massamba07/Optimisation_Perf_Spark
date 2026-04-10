@@ -195,7 +195,7 @@ spark.conf.set("spark.sql.codegen.aggregate", "true")
 
 ---
 
-## 💾 Module 4 : Gestion de la Mémoire et du Cache
+## Leçon 4 : Gestion de la Mémoire et du Cache
 
 ### 4.1 Architecture mémoire Spark
 
@@ -273,7 +273,7 @@ spark = SparkSession.builder \
 
 ---
 
-## 🔗 Module 5 : Optimisation des Jointures
+## Leçon 5 : Optimisation des Jointures
 
 ### 5.1 Types de jointures Spark
 
@@ -330,7 +330,7 @@ spark.conf.set("spark.sql.optimizer.bloomFilter.expectedItems", "1000000")
 
 ---
 
-## 📁 Module 6 : Formats de Fichiers et I/O
+## Leçon 6 : Formats de Fichiers et I/O
 
 ### 6.1 Comparaison des formats
 
@@ -399,7 +399,7 @@ deltaTable.optimize().executeZOrderBy("date", "customer_id")
 
 ---
 
-## ⚡ Module 7 : Tuning Avancé
+## Leçon 7 : Tuning Avancé
 
 ### 7.1 Paramètres critiques
 
@@ -474,7 +474,7 @@ print(f"Records processed: {records_processed.value}")
 
 ---
 
-## 🎯 Module 8 : Patterns et Anti-patterns
+## Leçon 8 : Patterns et Anti-patterns
 
 ### 8.1 Best Practices
 
