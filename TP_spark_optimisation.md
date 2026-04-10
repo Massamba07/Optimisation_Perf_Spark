@@ -725,7 +725,7 @@ print(f"Réduction: {((num_files - num_files_opt) / num_files) * 100:.1f}%")
 
 ---
 
-## ⚡ TP6 : UDFs et optimisations Catalyst
+## TP6 : UDFs et optimisations Catalyst
 
 ### Objectif
 Comprendre l'impact des UDFs et utiliser les fonctions natives Spark.
@@ -1149,7 +1149,7 @@ diagnose_dataframe(df_customers, "Customers")
 
 ---
 
-## 🏆 TP9 : Challenge final - Optimisation libre
+## TP9 : Challenge final - Optimisation libre
 
 ### Objectif
 Optimiser un pipeline complexe en autonomie complète.
@@ -1293,7 +1293,7 @@ print(f"Score performance: {min(40, int((time_challenge_baseline / time_challeng
 
 ---
 
-## 📝 Annexe : Solutions et corrigés
+## Annexe : Solutions et corrigés
 
 ### Solution TP2.1 - Repartitionnement
 
@@ -1439,7 +1439,7 @@ Réaliser un pipeline ETL complet avec :
 
 ---
 
-## 📚 Ressources additionnelles
+## Ressources additionnelles
 
 ### Datasets publics pour s'entraîner
 - Kaggle E-commerce: https://www.kaggle.com/carrie1/ecommerce-data
