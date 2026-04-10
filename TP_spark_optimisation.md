@@ -593,7 +593,7 @@ spark.conf.set("spark.sql.adaptive.enabled", "true")
 
 ---
 
-## 📁 TP5 : Formats de fichiers et I/O
+## TP5 : Formats de fichiers et I/O
 
 ### Objectif
 Comparer les formats et optimiser les opérations de lecture/écriture.
@@ -847,7 +847,7 @@ print(f"\nAmélioration: {((time_without - time_with) / time_without) * 100:.1f}
 
 ---
 
-## 🎯 TP7 : Projet final - Pipeline complet optimisé
+## TP7 : Projet final - Pipeline complet optimisé
 
 ### Objectif
 Construire un pipeline ETL complet en appliquant toutes les optimisations apprises.
@@ -1003,7 +1003,7 @@ analyze_output()
 
 ---
 
-## 📊 TP8 : Monitoring et debugging
+## TP8 : Monitoring et debugging
 
 ### Objectif
 Utiliser les outils de monitoring pour identifier et résoudre les problèmes de performance.
